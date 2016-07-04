@@ -1,0 +1,19 @@
+{
+  "name": "foowie/cloudflare-detection",
+  "description": "Detect if request is done through Cloudflare",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Robenek",
+      "email": "daniel.robenek@me.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "vectorface/whip": "*"
+  },
+  "require-dev": {
+    "codeception/base": "*"
+  }
+}

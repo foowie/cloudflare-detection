@@ -4,7 +4,7 @@ namespace Foowie\CloudflareDetection;
 
 /**
  * @author Daniel Robenek <daniel.robenek@me.com>
- * @generated 2016-07-04T10:58:31+00:00
+ * @generated 2016-08-23T12:25:01+00:00
  */
 class CloudflareIpAddresses implements IpAddresses {
 
@@ -34,7 +34,9 @@ class CloudflareIpAddresses implements IpAddresses {
 			'2405:8100::/32',
 			'2405:b500::/32',
 			'2606:4700::/32',
-			'2803:f800::/32'
+			'2803:f800::/32',
+			'2c0f:f248::/32',
+			'2a06:98c0::/29'
 		];
 	}
 	

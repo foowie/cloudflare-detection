@@ -4,7 +4,7 @@ namespace Foowie\CloudflareDetection;
 
 /**
  * @author Daniel Robenek <daniel.robenek@me.com>
- * @generated 2016-08-23T12:25:01+00:00
+ * @generated 2018-02-08T14:30:57+00:00
  */
 class CloudflareIpAddresses implements IpAddresses {
 
@@ -23,8 +23,7 @@ class CloudflareIpAddresses implements IpAddresses {
 			'188.114.96.0/20',
 			'190.93.240.0/20',
 			'197.234.240.0/22',
-			'198.41.128.0/17',
-			'199.27.128.0/21'
+			'198.41.128.0/17'
 		];
 	}
 	

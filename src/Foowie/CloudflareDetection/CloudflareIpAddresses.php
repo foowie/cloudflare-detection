@@ -4,7 +4,7 @@ namespace Foowie\CloudflareDetection;
 
 /**
  * @author Daniel Robenek <daniel.robenek@me.com>
- * @generated 2018-12-11T12:58:47+00:00
+ * @generated 2019-02-27T17:49:08+00:00
  */
 class CloudflareIpAddresses implements IpAddresses {
 
@@ -30,11 +30,12 @@ class CloudflareIpAddresses implements IpAddresses {
 	public function getIpV6Addresses() {
 		return [
 			'2400:cb00::/32',
+			'2405:8100::/32',
 			'2405:b500::/32',
 			'2606:4700::/32',
 			'2803:f800::/32',
-			'2c0f:f248::/32',
-			'2a06:98c0::/29'
+			'2a06:98c0::/29',
+			'2c0f:f248::/32'
 		];
 	}
 	
